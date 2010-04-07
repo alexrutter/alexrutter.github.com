@@ -1,0 +1,71 @@
+body {
+	font-family: Webdings;
+	text-align: center;
+	vertical-align: center;
+	margin:0em;
+	background-color: #000000;
+}
+
+#wrapper {
+	background-color: #FDFDFB;
+	text-align: left;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10em;
+	margin-bottom: auto;
+}
+
+div.main {
+	background-image: url('../furniture/atanytime.png');
+	background-repeat: no-repeat;
+	height: 468px;
+}
+
+h1 {
+	background-color: #F3F6FB;
+	color: #DADDE2;
+	text-transform: capitalize;
+	font-size: 48pt;
+	margin: 0em;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
+}
+
+
+div.navigation {
+	background-color: #919598;
+/*	width: 100%;*/
+	padding-left: 10em;
+}
+
+ul.navigation {
+	background-color: #919598;
+	display: table;
+	display: table-row;
+/*	padding-left: 10em;*/
+}
+
+ul.navigation li {
+	display: table-cell;
+	font-size: 0.75em;
+	color: #FFFFFF;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-transform: uppercase;
+}
+
+ul.navigation li:hover {
+	color: #000000;
+}
+
+ul.navigation li:active {
+	background-color: #000000;
+}
+
+img.feature {
+	margin-top: 5em;
+	margin-left: 13em;
+}
