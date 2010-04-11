@@ -12,7 +12,7 @@ body {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10em;
+	margin-top: 100px;
 	margin-bottom: auto;
 }
 
@@ -32,6 +32,16 @@ h1 {
 	padding-bottom: 0.1em;
 }
 
+div.scrollcontainer {
+	float: right;
+	text-align: center;
+	margin: 30px;
+}
+
+#thumbtable {
+	position: relative;
+	top: 0px;
+}
 
 div.navigation {
 	background-color: #919598;
@@ -66,6 +76,13 @@ ul.navigation li:active {
 }
 
 img.feature {
-	margin-top: 5em;
-	margin-left: 13em;
+	position: relative;
+	top: 70px;
+	left: 200px;
+}
+
+div.scroll {
+	height: 350px;
+	overflow: hidden;
+	padding: 8px;
 }
