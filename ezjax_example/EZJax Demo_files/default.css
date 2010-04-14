@@ -1,0 +1,16 @@
+/*
+ * 
+ * None of this is required to run the plugin,
+ * It's just to make the demo a little nicer to look at :-)
+ * 
+ */
+
+html { margin: 0; padding: 0; overflow: scroll; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 11px; }
+body { width: 800px; margin: 20px auto; padding: 0; }
+
+h1 { font-weight: normal; margin: 5px 0; }
+
+a, a:visited { color: #004080; text-decoration: none; outline: none; }
+a:hover { text-decoration: underline; }
+
+#ezjax_content { border: 1px dotted #ccc; padding: 5px 15px; margin: 10px 0; }
