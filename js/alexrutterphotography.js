@@ -1,15 +1,15 @@
 $(document).ready(function(){
 	$('.navigation').ezjax({	
-						container: '#ezjax_content',
-						initial: 'travel.html',
-						effect: 'fade',
-						easing: 'easeOutBounce',
-						bind: 'a'
-					});
+		container: 'div#scrollarea',
+		initial: 'travel.html',
+		effect: 'fade',
+		easing: 'easeOutBounce',
+		bind: 'a'
+	});
 	$('a.navigation').click(function(event){
-	   $("a.navigation").removeClass("selected");
-	   $(this).addClass("selected");
-	 });
+		$("a.navigation").removeClass("selected");
+		$(this).addClass("selected");
+	});
   	$("a#scrollup").click(function(event){
 	   event.preventDefault();
 		$('#thumbtable').animate({

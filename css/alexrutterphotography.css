@@ -97,7 +97,7 @@ img.feature {
 	left: 200px;
 }
 
-div.scroll {
+div#scrollarea {
 	height: 350px;
 	overflow: hidden;
 	padding: 8px;
