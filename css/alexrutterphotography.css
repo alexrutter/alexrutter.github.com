@@ -17,6 +17,7 @@ body {
 }
 
 div.main {
+	overflow: hidden;
 	background-image: url('../furniture/atanytime.png');
 	background-repeat: no-repeat;
 	height: 468px;
@@ -45,34 +46,49 @@ div.scrollcontainer {
 
 div.navigation {
 	background-color: #919598;
-/*	width: 100%;*/
-	padding-left: 10em;
 }
 
 ul.navigation {
 	background-color: #919598;
-	display: table;
-	display: table-row;
-/*	padding-left: 10em;*/
+	margin: 0px;
+	margin-left: 100px;
+	overflow: hidden;
 }
 
 ul.navigation li {
-	display: table-cell;
+/*	display: table-cell;*/
+	list-style: none;
+	float: left;
+}
+
+a.navigation {
+	display: block;
+	text-decoration: none;
 	font-size: 0.75em;
 	color: #FFFFFF;
-	padding-left: 1em;
-	padding-right: 1em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	text-transform: uppercase;
 }
 
-ul.navigation li:hover {
+a.navigation:hover {
 	color: #000000;
 }
 
-ul.navigation li:active {
+a.navigation:active {
 	background-color: #000000;
+	color: #FFFFFF;
+}
+
+a.selected {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+a.selected:hover {
+	color: #FFFFFF;
 }
 
 img.feature {
