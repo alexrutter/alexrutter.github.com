@@ -4,7 +4,7 @@ $(document).ready(function(){
 		initial: 'travel.html',
 		effect: 'fade',
 		easing: 'easeOutBounce',
-		bind: 'a'
+		bind: 'a.navigation'
 	});
 	$('a.navigation').click(function(event){
 		$("a.navigation").removeClass("selected");

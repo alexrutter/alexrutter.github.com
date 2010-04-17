@@ -38,6 +38,12 @@ jQuery.fn.ezjax = function(o) {
 			speed: o.speed,
 			easing: o.easing
 		});
+		
+		$("a.thumb").click(function(event){
+		   event.preventDefault();
+			$('img.feature').attr('src', $(this).attr('href'));
+		 });
+	  	
 	}
   
   // Main functionality
