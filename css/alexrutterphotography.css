@@ -33,8 +33,29 @@ h1 {
 	padding-bottom: 0.1em;
 }
 
+#featurecanvas {
+	float: left;
+	margin-left: 200px;
+	border: 1px red solid;
+	width: 468px;
+	height: 468px;
+}
+
+#featureframe {
+	width: 468px;
+	height: 468px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	overflow: hidden;
+}
+
+img.feature {
+}
+
 div.scrollcontainer {
 	float: right;
+	border: 1px blue solid;
 	text-align: center;
 	margin: 30px;
 }
@@ -91,12 +112,6 @@ a.selected:hover {
 	color: #FFFFFF;
 }
 
-img.feature {
-	position: relative;
-	top: 70px;
-	left: 200px;
-	width: 472px;
-}
 
 div#scrollarea {
 	height: 350px;
