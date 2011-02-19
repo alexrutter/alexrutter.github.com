@@ -4,6 +4,11 @@ body {
 	vertical-align: center;
 	margin:0em;
 	background-color: #000000;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
 #wrapper {
@@ -16,11 +21,20 @@ body {
 	margin-bottom: auto;
 }
 
-div.main {
+#contentarea {
 	overflow: hidden;
 	background-image: url('../furniture/atanytime.png');
 	background-repeat: no-repeat;
 	height: 468px;
+}
+
+.inactive {
+	display: none;
+}
+
+.main.infosection {
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	padding: 50px 100px 10px 200px;
 }
 
 h1 {
@@ -36,7 +50,6 @@ h1 {
 #featurecanvas {
 	float: left;
 	margin-left: 200px;
-	border: 1px red solid;
 	width: 468px;
 	height: 468px;
 }
@@ -55,7 +68,7 @@ img.feature {
 
 div.scrollcontainer {
 	float: right;
-	border: 1px blue solid;
+/*	border: 1px blue solid;*/
 	text-align: center;
 	margin: 30px;
 }
@@ -116,5 +129,28 @@ a.selected:hover {
 div#scrollarea {
 	height: 350px;
 	overflow: hidden;
-	padding: 8px;
+}
+
+#scrollup {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 125px;
+	height: 20px;
+	background-image: url('../images/uparrow.png');
+	background-color: #919598;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#scrolldown {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 125px;
+	height: 20px;
+	background-image: url('../images/downarrow.png');
+	background-color: #919598;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
