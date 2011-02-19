@@ -34,7 +34,11 @@ body {
 
 .main.infosection {
 	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
-	padding: 50px 100px 10px 200px;
+	padding: 50px 30px 10px 200px;
+}
+
+.main.infosection p {
+	margin: 0em 0em 1em 0em;
 }
 
 h1 {
