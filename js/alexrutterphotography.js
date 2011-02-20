@@ -43,13 +43,6 @@ $(document).ready(function(){
 			container.animate({ opacity: 1.0 }, 'normal');
 		});
 	});
-	// $('.navigation.gallerysection').ezjax({	
-	// 	container: 'div#scrollarea',
-	// 	initial: 'travel.html',
-	// 	effect: 'fade',
-	// 	easing: 'easeOutBounce',
-	// 	bind: 'a.navigation'
-	// });
 	$('a.navigation').click(function(event){
 		$("a.navigation").removeClass("selected");
 		$(this).addClass("selected");
