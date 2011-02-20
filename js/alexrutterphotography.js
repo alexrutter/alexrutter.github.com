@@ -11,6 +11,13 @@ var bounce = function(element, change1, change2) {
 }
 
 $(document).ready(function(){
+	var bindThumbnails = function() {
+		$("a.thumb").click(function(event){
+			event.preventDefault();
+			$('img.feature').attr('src', $(this).attr('href'));
+		});
+	};
+	
 	$('.navigation.gallerysection').click(function(event) {
 		event.preventDefault();
 		var url = $(this).attr('href');
@@ -21,16 +28,13 @@ $(document).ready(function(){
 		}
 		container.animate({ opacity: 0.0 }, 'normal', function(){
 			container.load(url, function(){
-				$("a.thumb").click(function(event){
-					event.preventDefault();
-					$('img.feature').attr('src', $(this).attr('href'));
-				});
+				bindThumbnails();
 				container.animate({ opacity: 1.0 }, 'normal');
 			});
 		});
 		return false;
 	});
-	$("div#scrollarea").load("travel.html");
+	$("div#scrollarea").load("travel.html", bindThumbnails);
 	$('.navigation.infosection').click(function(event) {
 		event.preventDefault();
 		var url = $(this).attr('href');
