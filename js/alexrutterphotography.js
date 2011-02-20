@@ -30,6 +30,7 @@ $(document).ready(function(){
 		});
 		return false;
 	});
+	$("div#scrollarea").load("travel.html");
 	$('.navigation.infosection').click(function(event) {
 		event.preventDefault();
 		var url = $(this).attr('href');
