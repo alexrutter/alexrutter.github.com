@@ -14,10 +14,10 @@ body {
 #wrapper {
 	background-color: #FDFDFB;
 	text-align: left;
-	width: 900px;
+	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: auto;
 }
 
@@ -53,7 +53,7 @@ h1 {
 
 #featurecanvas {
 	float: left;
-	margin-left: 200px;
+	margin-left: 270px;
 	width: 468px;
 	height: 468px;
 }
